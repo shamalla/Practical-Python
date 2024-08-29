@@ -1,0 +1,23 @@
+       class patients:
+            name = ""
+            Age = 10
+            Admno = 112
+            ward = ""
+
+            def description(self):
+                desc = "%s is a %d year old with admission number %d, in %s ward."%(name, Age, Admno, ward)
+                return desc
+            patient1 = patients()
+            patient1.name = "Job"
+            patient1.Age = 30
+            patient1.Admno = 1135
+            patient1.ward = "St George"
+
+            patient2 = patients()
+            patient2.name = "Sylvia"
+            patient2.Age = 26
+            patient2.Admno = 113456
+            patient2.ward = "St John"
+
+            print(patient1.description())
+            print(patient2.description())
